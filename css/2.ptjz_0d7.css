@@ -1,0 +1,139 @@
+.pixeleated.svelte-xfimix {
+    image-rendering: crisp-edges
+}
+
+.header-text {
+    line-height: .9
+}
+
+.move.svelte-1nxtyhl {
+    animation: svelte-1nxtyhl-move 230s linear infinite
+}
+
+@keyframes svelte-1nxtyhl-move {
+    0% {
+        transform: translate(0)
+    }
+
+    to {
+        transform: translate(-50%)
+    }
+}
+
+.background-blur.svelte-1nxtyhl {
+    -webkit-mask: radial-gradient(circle, rgba(255, 255, 255, 1) 80%, rgba(0, 0, 0, 0) 100%);
+    mask: radial-gradient(circle, rgba(255, 255, 255, 1) 80%, rgba(0, 0, 0, 0) 100%);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px)
+}
+
+.title-shadow-buy.svelte-o8wskl {
+    text-shadow: 2px 3px 0px rgba(0, 0, 0, 1);
+    -webkit-text-stroke: 1.8px rgb(0, 0, 0)
+}
+
+.move.svelte-1j1oq9h {
+    animation: svelte-1j1oq9h-move 60s linear infinite;
+    will-change: transform
+}
+
+.svelte-1j1oq9h:hover .move:where(.svelte-1j1oq9h) {
+    animation-play-state: paused
+}
+
+@keyframes svelte-1j1oq9h-move {
+    0% {
+        transform: translate(0)
+    }
+
+    to {
+        transform: translate(-50%)
+    }
+}
+
+.background-blur.svelte-1j1oq9h {
+    -webkit-mask: radial-gradient(circle, rgba(255, 255, 255, 1) 50%, rgba(0, 0, 0, 0) 90%);
+    mask: radial-gradient(circle, rgba(255, 255, 255, 1) 50%, rgba(0, 0, 0, 0) 90%);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px)
+}
+
+.based-white {
+    background-image: url(../images/base-transparent-white.ackYw9Yr.png);
+    opacity: 5%;
+    background-blend-mode: overlay;
+    background-repeat: repeat;
+    background-size: 700px;
+    animation: svelte-rd9wr8-slide 260s linear infinite
+}
+
+.background-image.svelte-rd9wr8 {
+    background-color: white;
+    opacity: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay
+}
+
+.title {
+    font-size: clamp(3rem, 4rem + 4vw, 12rem)
+}
+
+.subtitle {
+    font-size: clamp(1.2rem, .5rem + 2.1333vw, 1.5rem)
+}
+
+.button-text {
+    font-size: clamp(1rem, -.6rem + 4.2667vw, 2rem)
+}
+
+.soft-light {
+    background-color: #a5a5a5;
+    mix-blend-mode: lighten;
+    opacity: .1;
+    pointer-events: none
+}
+
+.logo-fade {
+    -webkit-mask-image: linear-gradient(to bottom, rgb(255, 255, 255) 90%, rgb(89, 28, 135) 95%);
+    mask-image: linear-gradient(to bottom, #fff 90%, #591c87 95%)
+}
+
+.logo-fade-invert {
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 1) 5%);
+    mask-image: linear-gradient(to bottom, #0000 1%, #000 5%)
+}
+
+@keyframes svelte-rd9wr8-slide {
+    0% {
+        transform: translate(0)
+    }
+
+    to {
+        transform: translate(-50%)
+    }
+}
+
+.text-shadow {
+    text-shadow: 5px 5px 0px #000000
+}
+
+.text-shadow-p {
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
+    -webkit-text-stroke: .3px rgb(0, 0, 0)
+}
+
+.title-shadow {
+    text-shadow: 2px 10px 0px rgba(0, 0, 0, 1);
+    -webkit-text-stroke: 4px rgb(0, 0, 0)
+}
+
+.title-shadow-p {
+    text-shadow: 2px 5px 0px rgba(0, 0, 0, 1);
+    -webkit-text-stroke: 2px rgb(0, 0, 0)
+}
+
+.title-tokenomics {
+    text-shadow: 2px 3px 0px rgba(0, 0, 0, 1);
+    -webkit-text-stroke: 1.4px rgb(0, 0, 0)
+}
